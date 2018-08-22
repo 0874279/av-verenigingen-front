@@ -1,0 +1,44 @@
+{
+  "name": "av-verenigingen-front",
+  "version": "1.0.0",
+  "description": "Herkansing Full Stack",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Orlando Duivestein",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bulma": "^0.5.1",
+    "express": "^4.16.3",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "webpack": "^4.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-middleware": "^3.1.2",
+    "webpack-hot-middleware": "^2.21.2"
+  }
+}
